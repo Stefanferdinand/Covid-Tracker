@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    background-color: #121212;
+    overflow-x: hidden;
+}
+
+/* nav & logo */
+
+nav{
+    display: flex;
+    width: auto;
+    background-color: #0f0909;
+    padding-left: 20px;
+}
+
+#logo{
+    padding: 26px;
+    padding-bottom: 24px;
+}
+
+#logo h1{
+    font-size: 2.4vw;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    line-height: 50px;
+}
+
+#nav-content{
+    display: flex;
+    margin-left: 24px;
+}
+
+#nav-content ul{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+#nav-content ul li{
+    font-size: 1.5vw;
+    padding-top: 42px;
+}
+
+#nav-content ul li .nav-links{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+#nav-content ul li:hover #line-beranda{
+    width: auto;
+    background-color: red;
+}
+
+#nav-content ul li:hover #line-informasi{
+    width: auto;
+    background-color: red;
+}
+
+#nav-content ul li .line{
+    width: 1px;
+    height: 4px;
+    margin-top: 6px;
+    background-color:#0f0909;
+    transition: width 1s;
+}
+
+#nav-content ul li #line-data{
+    background-color: red;
+    width: auto;
+}
+
+/* search-bar */
+
+input:focus{
+    outline: none;
+}
+
+
+#search-bar{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#search-bar #search-pill{
+    margin: auto;
+    background-color: rgb(241, 236, 236);
+    width: 250px;
+    height: 34px;
+    border-radius: 100px;
+    border: 2px black solid;
+    padding-left: 14px;
+}
+
+#search-bar #search-icon{
+    width: 3%;
+    position: relative;
+    top: 16px;
+    left: 5px;
+}
+
+/* main */
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+main .main-container{
+    margin:0 20px;
+    margin-bottom: 70px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(68, 63, 63, 0.418);
+}
+
+main .main-container .provinsi{
+    margin-top: 28px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 1;
+    font-family: sans-serif;
+}
+
+main .main-container .main-line{
+    width: 68%;
+}
+
+main .main-container .container-details{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+main .main-container .container-details .list-container{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+main .main-container .container-details .list-container .list .inner-list{
+    color:white;
+    font-size: 1.6vw;
+    font-family: serif;
+}
+
+main .main-container .container-details .list-container .list .inner-list span{
+    line-height: 50px;
+    font-size: 2vw;
+    color: rgb(201, 200, 200);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

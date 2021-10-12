@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    background-color: #121212;
+    overflow-x: hidden;
+}
+
+/* nav & logo */
+
+nav{
+    display: flex;
+    width: auto;
+    background-color: #0f0909;
+    padding-left: 20px;
+}
+
+#logo{
+    padding: 26px;
+    padding-bottom: 24px;
+}
+
+#logo h1{
+    font-size: 2.4vw;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    line-height: 50px;
+}
+
+#nav-content{
+    display: flex;
+    margin-left: 24px;
+}
+
+#nav-content ul{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+#nav-content ul li{
+    font-size: 1.5vw;
+    padding-top: 42px;
+}
+
+#nav-content ul li .nav-links{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+#nav-content ul li:hover #line-data{
+    width: auto;
+    background-color: red;
+}
+
+#nav-content ul li:hover #line-informasi{
+    width: auto;
+    background-color: red;
+}
+
+#nav-content ul li .line{
+    width: 1px;
+    height: 4px;
+    margin-top: 6px;
+    background-color:#0f0909;
+    transition: width 1s;
+}
+
+#nav-content ul li #line-beranda{
+    background-color: red;
+    width: auto;
+}
+
+/* header-total */
+
+section #container-total {
+    display: flex;
+    background-color: rgb(146, 140, 140);
+    justify-content: center;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.pill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 48px;
+}
+
+.pill-header{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.4vw;
+    margin-bottom: 14px;
+}
+
+.inner-pill{
+    color: white;
+    font-size: 1.8vw;
+}
+
+section #container-total #total-total{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+section #container-total #total-total div{
+    margin: auto;
+}
+
+section #container-total #total-details{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+/* main-content */
+
+main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #caption{
+    padding-top: 80px;
+}
+
+main #caption h2{
+    margin: 0px;
+    font-size: 2.8vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:snow;
+}
+
+main #telephone{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+main #telephone ul{
+    display: flex;
+    width: 560px;
+    justify-content: space-evenly;
+}
+
+main #telephone ul li{
+    color: white;
+    font-size: 2vw;
+    list-style-type: none;
+}
